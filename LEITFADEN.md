@@ -30,7 +30,7 @@ LICENSE                # Lizenz
 ## README.md sollte enthalten:
 
 - Projektbeschreibung
-- Übersicht der Ordnerstruktur, des experimentellen Aufbaus, der Datensätze und Ergebnissse
+- Übersicht der Ordnerstruktur, des experimentellen Aufbaus, der Datensätze und Ergebnissse (mit Visualisierung)
 - Links zu Notebooks, Daten und Ergebnisse
   
 README immer aktuell halten
