@@ -2,25 +2,26 @@ Dieser Leitfaden beschreibt die empfohlene Struktur, Arbeitsweise und Best Pract
 
 
 
-Eine gute Projektstruktur
+## Eine gute Projektstruktur
 
-
-
+```
 README.md              # Projektbeschreibung
 requirements.txt       # Python-Abhängigkeiten
 src/                   # Quellcode
 notebooks/             # Jupyter Notebooks
 data/
-     roh/               # Unverarbeitete Daten
-     verarbeitet/       # Aufbereitete Daten
-     beschreibung/      # Datenquellen und Erklärungen
+  roh/                 # Unverarbeitete Daten
+  verarbeitet/         # Aufbereitete Daten
+  beschreibung/        # Datenquellen und Erklärungen
 results/
-     grafiken/
-     tabellen/
+  grafiken/
+  tabellen/
 docs/                  # Dokumentation & Leitfäden
-CONTRIBUTING.md        # Mitwirkungsregeln, falls notwendig
+CONTRIBUTING.md        # Mitwirkungsregeln
 LICENSE                # Lizenz
-.gitignore             # Ausgeschlossene Dateien, falls vorhanden
+.gitignore             # Ausgeschlossene Dateien
+```
+
 ```
 
 
