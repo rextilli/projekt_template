@@ -25,17 +25,18 @@ LICENSE                # Lizenz
 ```
 
 
-README.md sollte enthalten:
+## README.md sollte enthalten:
+```
 - Projektbeschreibung
 - Übersicht der Ordnerstruktur
 - Installationsanleitung (`pip install -r requirements.txt`)
 - Links zu Notebooks, Daten und Ergebnissen
 - Autor:innen und Lizenz
+```
 
 
-
-Eine gute Datenstruktur
-
+## Eine gute Datenstruktur
+```
  `data/roh/`
 Originaldaten (nicht verändert)
 
@@ -44,18 +45,19 @@ Bereinigte, verwendbare Daten
 
  `data/beschreibung/`
 Quellen, Format-Erklärungen, ggf. ein eigenes `README.md`
+```
 
-
- Ergebnisse speichern in
+## Ergebnisse speichern in
+```
 `results/`:
 - `grafiken/`: Diagramme, Visualisierungen
 - `tabellen/`: Tabellen, CSVs, Zusammenfassungen
 
 Jeder Dateiname sollte Rückschlüsse auf den Inhalt geben.
+```
 
 
-
-Notebooks
+## Notebooks
 
 Jupyter Notebooks für Analysen nutzen (chronologisch und thematisch benennen):
 
