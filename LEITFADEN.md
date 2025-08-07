@@ -96,12 +96,6 @@ Außerdem zu beachten ist:
 - Ergebnisse visualisieren
 
 
-## Tests (optional)
-
-
-Tests kommen in den `tests/`-Ordner.
-
-
 ##  Mitwirken im Team
 
 Wenn mehrere Leute zusammenarbeiten, sollten Regeln in der Datei CONTRIBUTING.md dokumentiert sein. 
