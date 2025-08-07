@@ -22,21 +22,27 @@ LICENSE                # Lizenz
 .gitignore             # Ausgeschlossene Dateien
 ```
 
-```
+
 
 
 ## README.md sollte enthalten:
-```
+
 - Projektbeschreibung
 - Übersicht der Ordnerstruktur
 - Installationsanleitung (`pip install -r requirements.txt`)
 - Links zu Notebooks, Daten und Ergebnissen
 - Autor:innen und Lizenz
-```
+- 
+README immer aktuell halten
+
+Jede größere Änderung dokumentieren:
+- Neue Skripte oder Daten
+- Andere Struktur
+- Hinweise zur Ausführung
 
 
 ## Eine gute Datenstruktur
-```
+
  `data/roh/`
 Originaldaten (nicht verändert)
 
@@ -45,16 +51,16 @@ Bereinigte, verwendbare Daten
 
  `data/beschreibung/`
 Quellen, Format-Erklärungen, ggf. ein eigenes `README.md`
-```
+
 
 ## Ergebnisse speichern in
-```
+
 `results/`:
 - `grafiken/`: Diagramme, Visualisierungen
 - `tabellen/`: Tabellen, CSVs, Zusammenfassungen
 
 Jeder Dateiname sollte Rückschlüsse auf den Inhalt geben.
-```
+
 
 
 ## Notebooks
@@ -65,12 +71,11 @@ Jupyter Notebooks für Analysen nutzen (chronologisch und thematisch benennen):
 01_datenaufbereitung.ipynb
 02_erste_analysen.ipynb
 03_visualisierung.ipynb
-```
 
 
 
 
-Code-Stil & Tools
+## Code-Stil & Tools
 
 ### Python:
 - `black` – automatisches Formatieren
@@ -79,16 +84,11 @@ Code-Stil & Tools
 
 
 
-Tests (optional)
+## Tests (optional)
 
 
 Tests kommen in den `tests/`-Ordner.
 
 
-README immer aktuell halten
 
-Jede größere Änderung dokumentieren:
-- Neue Skripte oder Daten
-- Andere Struktur
-- Hinweise zur Ausführung
 
