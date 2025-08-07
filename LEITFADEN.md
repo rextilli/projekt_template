@@ -107,10 +107,10 @@ Tests kommen in den `tests/`-Ordner.
 Wenn mehrere Leute zusammenarbeiten, sollten Regeln in der Datei CONTRIBUTING.md dokumentiert sein. 
 Typischer Ablauf für Beiträge:
 
-1. Ein Issue (Problem oder Aufgabe) anlegen oder übernehmen.
-2. Einen neuen Branch anlegen (z. B. feature/datenfilterung).
-3. Änderungen lokal umsetzen und committen.
-4. Einen Pull Request (PR) auf GitHub stellen.
+- Ein Issue (Problem oder Aufgabe) anlegen oder übernehmen.
+- Einen neuen Branch anlegen (z. B. feature/datenfilterung).
+- Änderungen lokal umsetzen und committen.
+- Einen Pull Request (PR) auf GitHub stellen.
 
 
 
