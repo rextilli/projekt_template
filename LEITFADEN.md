@@ -1,26 +1,26 @@
-Dieser Leitfaden beschreibt die empfohlene Struktur, Arbeitsweise und Best Practices für die Nutzung von GitHub im Team.
+Dieser Leitfaden beschreibt die empfohlene Struktur, Arbeitsweise und Best Practices für die Nutzung von GitHub
 
 
 
 Eine gute Projektstruktur
 
-```text
-.
-├── README.md              # Projektbeschreibung
-├── requirements.txt       # Python-Abhängigkeiten
-├── src/                   # Quellcode
-├── notebooks/             # Jupyter Notebooks
-├── data/
-│   ├── roh/               # Unverarbeitete Daten
-│   ├── verarbeitet/       # Aufbereitete Daten
-│   └── beschreibung/      # Datenquellen und Erklärungen
-├── results/
-│   ├── grafiken/
-│   └── tabellen/
-├── docs/                  # Dokumentation & Leitfäden
-├── CONTRIBUTING.md        # Mitwirkungsregeln, falls notwendig
-├── LICENSE                # Lizenz
-└── .gitignore             # Ausgeschlossene Dateien, falls vorhanden
+
+
+README.md              # Projektbeschreibung
+requirements.txt       # Python-Abhängigkeiten
+src/                   # Quellcode
+notebooks/             # Jupyter Notebooks
+data/
+     roh/               # Unverarbeitete Daten
+     verarbeitet/       # Aufbereitete Daten
+     beschreibung/      # Datenquellen und Erklärungen
+results/
+     grafiken/
+     tabellen/
+docs/                  # Dokumentation & Leitfäden
+CONTRIBUTING.md        # Mitwirkungsregeln, falls notwendig
+LICENSE                # Lizenz
+.gitignore             # Ausgeschlossene Dateien, falls vorhanden
 ```
 
 
@@ -58,7 +58,7 @@ Notebooks
 
 Jupyter Notebooks für Analysen nutzen (chronologisch und thematisch benennen):
 
-```text
+
 01_datenaufbereitung.ipynb
 02_erste_analysen.ipynb
 03_visualisierung.ipynb
@@ -74,20 +74,7 @@ Code-Stil & Tools
 - `isort` – sortiert Imports
 - `flake8` – Linting
 
-```bash
-black . && isort . && flake8 .
-```
 
-### JS/TS:
-- `prettier` – Formatierung
-- `eslint` – Linting
-
-```bash
-npx prettier --write .
-npx eslint .
-```
-
----
 
 Tests (optional)
 
