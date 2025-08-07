@@ -22,5 +22,5 @@ Ein gutes README sollte mindestens folgende Inhalte haben:
 
 
 
-Markdown (.md) ist eine einfache Auszeichnungssprache zur Strukturierung von Texten mit Überschriften, Listen, Links, Tabellen und mehr – und GitHub kann es direkt anzeigen.
+Markdown (.md) ist eine einfache Auszeichnungssprache zur Strukturierung von Texten
 
