@@ -1,9 +1,6 @@
+# Leitfaden
 Dieser Leitfaden beschreibt die empfohlene Struktur, Arbeitsweise und Best Practices für die Nutzung von GitHub
-
-## Best Practices und Stilregeln
-
-
-Um eine saubere und nachvollziehbare Arbeit zu gewährleisten, sollten bestimmte Konventionen und Abläufe eingehalten werden. Diese Best Practices sollen helfen die Nachvollziehbarkeit zu steigern.
+Um eine saubere und nachvollziehbare Arbeit zu gewährleisten, sollten bestimmte Konventionen und Abläufe eingehalten werden. 
 
   
 ## Eine gute Projektstruktur
