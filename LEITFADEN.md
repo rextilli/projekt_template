@@ -1,7 +1,11 @@
 Dieser Leitfaden beschreibt die empfohlene Struktur, Arbeitsweise und Best Practices für die Nutzung von GitHub
 
+## Best Practices und Stilregeln
 
 
+Um eine saubere und nachvollziehbare Arbeit zu gewährleisten, sollten bestimmte Konventionen und Abläufe eingehalten werden. Diese Best Practices sollen helfen die Nachvollziehbarkeit zu steigern.
+
+  
 ## Eine gute Projektstruktur
 
 ```
@@ -23,16 +27,12 @@ LICENSE                # Lizenz
 ```
 
 
-
-
 ## README.md sollte enthalten:
 
 - Projektbeschreibung
-- Übersicht der Ordnerstruktur
-- Installationsanleitung (`pip install -r requirements.txt`)
-- Links zu Notebooks, Daten und Ergebnissen
-- Autor:innen und Lizenz
-- 
+- Übersicht der Ordnerstruktur, des experimentellen Aufbaus, der Datensätze und Ergebnissse
+- Links zu Notebooks, Daten und Ergebnisse
+  
 README immer aktuell halten
 
 Jede größere Änderung dokumentieren:
@@ -53,41 +53,64 @@ Bereinigte, verwendbare Daten
 Quellen, Format-Erklärungen, ggf. ein eigenes `README.md`
 
 
-## Ergebnisse speichern in
-
-`results/`:
-- `grafiken/`: Diagramme, Visualisierungen
-- `tabellen/`: Tabellen, CSVs, Zusammenfassungen
-
-Jeder Dateiname sollte Rückschlüsse auf den Inhalt geben.
-
-
-
 ## Notebooks
 
-Jupyter Notebooks für Analysen nutzen (chronologisch und thematisch benennen):
+Jupyter Notebooks sind ideal für:
 
+- Datenaufbereitung
+- Explorative Analysen
+- Visualisierung
+- Modellergebnisse
+
+Beispielhafte Benennung (chronologisch und thematisch, Nummerierung sorgt für Ordnung):
 
 01_datenaufbereitung.ipynb
 02_erste_analysen.ipynb
 03_visualisierung.ipynb
 
 
+## Ergebnisse speichern in
+
+`results/`:
+- `grafiken/`: Diagramme, Visualisierungen
+- `tabellen/`: Tabellen, CSVs, Zusammenfassungen
+
+Sprechende, nachvollziehbare Dateinamen verwenden. Optional kann ein eigenes README.md im results/-Verzeichnis erklären, wie und wann die Ergebnisse erzeugt wurden.
 
 
 ## Code-Stil & Tools
 
-### Python:
+Ein konsistenter Stil sorgt für bessere Lesbarkeit
+Automatische Formatter und Linter für Python:
+
 - `black` – automatisches Formatieren
 - `isort` – sortiert Imports
 - `flake8` – Linting
-
+  
+Außerdem zu beachten ist:
+- Abläufe Schritt für Schritt durch Code-Kommentare erläutern
+- Reproduzierbarkeit sichern
+- Konfigurierbarkeit bevorzugen
+   (Statt z. B. Trainingsgrößen und Validationspfade hart in dein Skript zu schreiben,       speichere sie besser in einer YAML- oder JSON-Datei, die du einliest.)
+- Logging statt nur print()
+- Ergebnisse visualisieren
 
 
 ## Tests (optional)
 
 
 Tests kommen in den `tests/`-Ordner.
+
+
+##  Mitwirken im Team
+
+Wenn mehrere Leute zusammenarbeiten, sollten Regeln in der Datei CONTRIBUTING.md dokumentiert sein. 
+Typischer Ablauf für Beiträge:
+
+1. Ein Issue (Problem oder Aufgabe) anlegen oder übernehmen.
+2. Einen neuen Branch anlegen (z. B. feature/datenfilterung).
+3. Änderungen lokal umsetzen und committen.
+4. Einen Pull Request (PR) auf GitHub stellen.
 
 
 
